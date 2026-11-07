@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --color-surface-base: 248 250 252;
+    --color-surface-card: 255 255 255;
+    --color-surface-elevated: 241 245 249;
+    --color-surface-border: 226 232 240;
+    --color-brand-accent: 2 132 199;
+  }
+
+  html.dark {
+    color-scheme: dark;
+    --color-surface-base: 10 13 20;
+    --color-surface-card: 17 22 34;
+    --color-surface-elevated: 24 32 48;
+    --color-surface-border: 30 41 59;
+    --color-brand-accent: 56 189 248;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface-base text-slate-800 dark:text-slate-100 font-sans antialiased;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  ::selection {
+    @apply bg-brand-accent/20 text-brand-accent;
+  }
+}
+
+/* Custom accessible scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #0a0d14;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #1e293b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Accessible focus ring utility */
+@layer utilities {
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2 focus-visible:ring-offset-surface-base;
+  }
+}
+
+/* Stagger animation delay utilities */
+.animation-delay-100 {
+  animation-delay: 100ms;
+}
+.animation-delay-150 {
+  animation-delay: 150ms;
+}
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+.animation-delay-500 {
+  animation-delay: 500ms;
+}
+
+/* Reduced motion accessibility rule */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nemeshvar M V — AI Full Stack Developer & Python Engineer</title>
+    <meta name="description" content="Personal portfolio of Nemeshvar M V, AI Full Stack Developer & Python Engineer. Specializing in Agentic RAG, LangGraph workflows, Qdrant vector indexing, and FastAPI backend engineering." />
+    <meta name="keywords" content="Nemeshvar M V, AI Developer, Python Engineer, LangGraph, Agentic RAG, FastAPI, Qdrant, React, Portfolio, Kalasalingam" />
+    <meta name="author" content="Nemeshvar M V" />
+    <meta name="theme-color" content="#0a0d14" />
+    
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nemeshvar M V — AI Full Stack Developer & Python Engineer" />
+    <meta property="og:description" content="Specializing in Agentic RAG, LangGraph Workflows, FastAPI & Scalable AI Applications. 1st Rank in the CSE Department of 23S14 (9.04 CGPA) at Kalasalingam Academy." />
+    <meta property="og:site_name" content="Nemeshvar M V Portfolio" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nemeshvar M V — AI Full Stack Developer & Python Engineer" />
+    <meta name="twitter:description" content="Specializing in Agentic RAG, LangGraph Workflows, FastAPI & Scalable AI Applications." />
+    
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Theme Initialization Script (Prevents FOUC) -->
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('portfolio-theme');
+          var supportDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'light' || (!stored && !supportDark)) {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          } else {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-[#0a0d14] dark:text-slate-100 antialiased selection:bg-brand-accent/20 selection:text-brand-accent transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

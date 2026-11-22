@@ -84,6 +84,7 @@ export const profileData: Profile = {
       skills: [
         "Data Structures & Algorithms",
         "Algorithmic Problem Solving",
+        "Algorithmic Allocation & Mathematical Modeling",
         "Time & Space Complexity",
         "Object-Oriented Design (OOD)",
         "LeetCode Practice",
@@ -107,6 +108,11 @@ export const profileData: Profile = {
       category: "AI & Machine Learning",
       skills: [
         "Machine Learning",
+        "Scikit-Learn",
+        "NumPy & Pandas",
+        "Bayesian Smoothing",
+        "Pairwise Preference Learning (Bradley-Terry)",
+        "Workload Fairness & Gini Optimization",
         "Deep Learning",
         "Natural Language Processing (NLP)",
         "Computer Vision",
@@ -131,7 +137,7 @@ export const profileData: Profile = {
       category: "Backend & APIs",
       skills: [
         "FastAPI",
-        "Pydantic",
+        "Pydantic v2",
         "Django",
         "REST APIs",
         "API Integration",
@@ -145,6 +151,8 @@ export const profileData: Profile = {
       skills: [
         "React.js",
         "Streamlit",
+        "Folium (Geospatial Mapping)",
+        "Plotly",
         "HTML5",
         "CSS3 / Tailwind CSS",
         "JavaScript",
@@ -162,6 +170,8 @@ export const profileData: Profile = {
         "Jenkins",
         "AWS (EC2, ECR)",
         "CI/CD Automation",
+        "Pytest (Unit & Integration Testing)",
+        "Poetry",
         "Apache Maven",
         "Git",
         "GitHub",

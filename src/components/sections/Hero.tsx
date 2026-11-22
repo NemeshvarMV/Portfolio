@@ -20,9 +20,10 @@ import { profileData } from '../../data/profileData';
 import { useTypewriter } from '../../hooks/useTypewriter';
 
 const typewriterWords = [
+  "AI Engineer",
+  "Agentic AI & LangGraph Architect",
   "AI Full Stack Developer",
   "Python Backend Engineer",
-  "Agentic AI & LangGraph Architect",
   "Algorithmic Problem Solver",
 ];
 

@@ -21,11 +21,16 @@ const categoryIcons: Record<string, React.ReactNode> = {
   'Programming Languages': <Code className="w-4 h-4 text-emerald-400" />,
   'Problem Solving & Core CS': <LeetCodeIcon className="w-4 h-4 text-amber-500" />,
   'Generative AI & Agentic AI': <Sparkles className="w-4 h-4 text-brand-accent" />,
+  'Machine Learning & Deep Learning': <BrainCircuit className="w-4 h-4 text-purple-400" />,
   'AI & Machine Learning': <BrainCircuit className="w-4 h-4 text-purple-400" />,
+  'RAG & AI Engineering': <Layers className="w-4 h-4 text-sky-400" />,
   'RAG & AI Infrastructure': <Layers className="w-4 h-4 text-sky-400" />,
+  'Backend Development': <Server className="w-4 h-4 text-indigo-400" />,
   'Backend & APIs': <Server className="w-4 h-4 text-indigo-400" />,
+  'Libraries & Frameworks': <Layout className="w-4 h-4 text-amber-400" />,
   'Frontend Development': <Layout className="w-4 h-4 text-amber-400" />,
   'Databases': <Database className="w-4 h-4 text-cyan-400" />,
+  'Developer Tools': <Wrench className="w-4 h-4 text-slate-400" />,
   'Developer Tools & Observability': <Wrench className="w-4 h-4 text-slate-400" />,
 };
 

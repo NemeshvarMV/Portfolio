@@ -27,23 +27,21 @@ export const About: React.FC = () => {
           {/* Main Bio Narrative */}
           <div className="lg:col-span-7 space-y-5 text-slate-600 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
             <p>
-              I am an <strong className="text-slate-900 dark:text-white font-medium">AI Full Stack Developer and Python Engineer</strong> pursuing 
-              my B.Tech in Computer Science and Engineering (AIML) at <strong className="text-slate-900 dark:text-white font-medium">Kalasalingam Academy of Research and Education</strong>, 
-              where I hold the <strong className="text-brand-accent font-medium">1st Rank in the CSE Department of 23S14 with a 9.04 / 10 CGPA</strong>.
+              I am an <strong className="text-slate-900 dark:text-white font-medium">AI/ML Engineer</strong> pursuing 
+              my B.Tech in Computer Science & Engineering (AI & ML) at <strong className="text-slate-900 dark:text-white font-medium">Kalasalingam Academy of Research and Education</strong>, 
+              where I secured the <strong className="text-brand-accent font-medium">1st Rank in the CSE Department (batch 23S14) with a 9.04/10 CGPA</strong>.
             </p>
 
             <p>
-              My engineering focus lies at the intersection of <strong className="text-slate-900 dark:text-white font-medium">Agentic AI architectures</strong> and 
-              <strong className="text-slate-900 dark:text-white font-medium"> production backend systems</strong>. Rather than treating LLMs as standalone black boxes, 
-              I design resilient multi-agent graphs using <strong className="text-slate-900 dark:text-white font-medium">LangGraph</strong>, incorporate deterministic vector indexing with 
-              <strong className="text-slate-900 dark:text-white font-medium"> Qdrant</strong>, and enforce enterprise safety boundaries with <strong className="text-slate-900 dark:text-white font-medium">NeMo Guardrails</strong> and 
-              <strong className="text-slate-900 dark:text-white font-medium"> FlashRank re-ranking</strong>.
+              My hands-on experience centers on developing <strong className="text-slate-900 dark:text-white font-medium">Machine Learning, Generative AI, and Agentic AI applications</strong> using Python. 
+              I specialize in building production REST APIs, Retrieval-Augmented Generation (RAG) systems, intelligent multi-agent workflows, and scalable backend applications using 
+              <strong className="text-slate-900 dark:text-white font-medium"> FastAPI, Django, LangGraph</strong>, and vector databases like <strong className="text-slate-900 dark:text-white font-medium">Qdrant</strong>.
             </p>
 
             <p>
-              Through internships at <strong className="text-slate-900 dark:text-white font-medium">Infosys Springboard</strong> and <strong className="text-slate-900 dark:text-white font-medium">Infyni</strong>, 
-              I have delivered real-world solutions ranging from multilingual agricultural diagnostic assistants to production-grade Django backend services. 
-              I value clean architecture, typed data models, verifiable test coverage, and recruiter-ready documentation.
+              Through industry internships at <strong className="text-slate-900 dark:text-white font-medium">Infosys Springboard</strong> and <strong className="text-slate-900 dark:text-white font-medium">Infyni</strong>, 
+              alongside independent project development for <strong className="text-slate-900 dark:text-white font-medium">TheCarePal (CareMatch AI)</strong> and <strong className="text-slate-900 dark:text-white font-medium">AIVOA.AI</strong>, 
+              I design reliable, scalable software solutions backed by disciplined engineering, data structures, and mathematical optimization.
             </p>
 
             <p>
@@ -57,10 +55,10 @@ export const About: React.FC = () => {
                 📍 {profileData.contact.location}
               </span>
               <span className="px-2.5 py-1 rounded bg-surface-card border border-surface-border text-slate-700 dark:text-slate-300 shadow-xs">
-                🎓 B.Tech CSE (AIML) • 2023–2027
+                🎓 B.Tech CSE (AI & ML) • 2023–2027
               </span>
               <span className="px-2.5 py-1 rounded bg-surface-card border border-surface-border text-slate-700 dark:text-slate-300 shadow-xs">
-                🏆 1st Rank in the CSE Department of 23S14
+                🏆 1st Rank in CSE (batch 23S14)
               </span>
               {profileData.contact.leetcode && (
                 <a

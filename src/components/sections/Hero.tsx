@@ -20,9 +20,9 @@ import { profileData } from '../../data/profileData';
 import { useTypewriter } from '../../hooks/useTypewriter';
 
 const typewriterWords = [
-  "AI Engineer",
+  "AI/ML Engineer",
   "Agentic AI & LangGraph Architect",
-  "AI Full Stack Developer",
+  "Generative AI Specialist",
   "Python Backend Engineer",
   "Algorithmic Problem Solver",
 ];
@@ -60,7 +60,7 @@ export const Hero: React.FC = () => {
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                 </span>
                 <span className="text-xs font-mono font-medium text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded border border-emerald-500/20">
-                  Open to Software Engineering & AI Developer Roles
+                  Open to AI/ML & Software Engineering Roles
                 </span>
               </div>
 
@@ -99,9 +99,9 @@ export const Hero: React.FC = () => {
 
           {/* Value Proposition / Summary */}
           <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed max-w-3xl mb-8 animate-fade-in-up animation-delay-200">
-            Designing and engineering production-grade <strong className="text-slate-900 dark:text-white font-medium">Agentic RAG workflows</strong>, 
-            <strong className="text-slate-900 dark:text-white font-medium"> LangGraph pipelines</strong>, and <strong className="text-slate-900 dark:text-white font-medium">FastAPI microservices</strong>. 
-            Algorithmic problem solver dedicated to clean data structures, vector indexing with Qdrant, and scalable full stack architectures.
+            Developing <strong className="text-slate-900 dark:text-white font-medium">Machine Learning</strong>, 
+            <strong className="text-slate-900 dark:text-white font-medium"> Generative AI</strong>, and <strong className="text-slate-900 dark:text-white font-medium">Agentic AI applications</strong> using Python. 
+            Skilled in building REST APIs, RAG systems, and intelligent backend workflows using <strong className="text-slate-900 dark:text-white font-medium">FastAPI, Django, LangGraph, and vector databases</strong>.
           </p>
 
           {/* Resume-backed Credential Badges */}

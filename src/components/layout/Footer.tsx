@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-xs text-slate-600 dark:text-slate-400 mt-1 max-w-md">
-              AI Full Stack Developer & Python Engineer. Specializing in LangGraph, Agentic RAG, and high-performance backend systems.
+              AI/ML Engineer. Specializing in Machine Learning, Generative AI, LangGraph, and scalable backend applications.
             </p>
           </div>
 
